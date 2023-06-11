@@ -1,0 +1,197 @@
+.termination{
+    /*position: absolute;*/
+    bottom: 0;
+}
+
+.item_container{
+    display: grid;
+    /*grid-template-columns: 300px 1fr 1fr;*/
+    grid-template-columns: repeat(auto-fill, minmax(250px, 330px));
+    grid-auto-rows: auto;
+}
+
+.flexin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.subitem{
+    align-items: center;
+    justify-content: center;
+    border: solid 2px #2dd4bf;
+    border-radius: 10%;
+    color: white;
+    padding: 2%;
+    margin: 1%;
+}
+
+.textin{
+    text-align: center;
+}
+
+.padd{
+    padding: 1%;
+}
+.redont{
+    border-radius: 25%;
+}
+
+/*footer*/
+.footer-links{
+    background-color: #dbeafe;
+    color: #0f766e;
+    font-size: 15px;
+    padding: 35px 0;
+    border-radius: 25px;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+#Ind{
+    color: black;
+}
+.footer-container ul{
+    margin: 0 auto;
+}
+.footer-container ul li{
+    /*padding-top: 5px;*/
+    line-height: 200%;
+
+}
+/*elementos del menu que mostraran detalles de los huertos*/
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navli {
+    float: left;
+}
+
+.navli a {
+    display: block;
+    color: #1a202c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover  All of this is to class Acciones Huerto*/
+.hoverr:hover {
+    background-color: #0f766e;
+    color: white;
+    border-radius: 15px;
+    border-bottom: 2px solid #16a34a;
+}
+.atras{
+    float: left;
+    padding: 14px 16px;
+    border-radius: 15px;
+    background-color: #0f766e;
+    color: aliceblue;
+}
+
+/*ELEMENTOS DE DISEÑO QUE SE LE DARA A LA CLASE DE FENOFASES*/
+.suraya{
+    height: 3px;
+    background-color: #8cdeaa;
+}
+.suraya-blue{
+    height: 2px;
+    background-color: #93bbfa;
+    width: 95%;
+}
+.hrr {
+    margin-top: 8px;
+    height: 5px;
+    background-color: black;
+    float: left;
+    width: 100px;
+}
+.linea{
+    width: 40px;
+}
+.circulo {
+    width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #16a34a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+.circulof {
+    width: 25px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 25px;
+    background: #1e40af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    color: white;
+}
+.circulof:hover{
+    width: 25px;
+    height: 25px;
+    background-color: #0d9488;
+}
+.subcirculo {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: black;
+    display: block;
+}
+.targetones{
+    display: flex;
+}
+.espacio{
+    width: 120px;
+    margin-bottom: 10px;
+    text-align: center;
+    /*border: 2px solid #0d9488;*/
+}
+.cards{
+    width: 100px;
+    height: 100px;
+    background-color: #d1fae5;
+    border: 1px solid #9ca3af;
+    border-radius: 20px;
+    padding: 0.5px;
+    text-align: center;
+    float: left;
+}
+.fecha{
+    width: 100px;
+    padding: 0.5px;
+    float: left;
+    background-color: #9ca3af;
+    border-radius: 15px;
+}
+.fecha:hover{
+    width: 100px;
+    padding: 0.5px;
+    float: left;
+    background-color: #9ca3af;
+    border-radius: 15px;
+    font-family: "Bodoni MT Black";
+}
+.fenoo{
+    margin-left: 25%;
+}
+/*--------------*/
