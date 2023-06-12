@@ -43,43 +43,43 @@ class GeneralSeeder extends Seeder
                 'chemical_code' =>  'P2O5',
             ],
             [
-                'name' =>    'POTASIO',
+                'name' =>    'Potasio',
                 'chemical_code' =>  'K2O',
             ],
             [
-                'name' =>    'CALCIO',
+                'name' =>    'Calcio',
                 'chemical_code' =>  'CA',
             ],
             [
-                'name' =>    'MAGNESIO',
+                'name' =>    'Magnesio',
                 'chemical_code' =>  'Mg',
             ],
             [
-                'name' =>    'SODIO',
+                'name' =>    'Sodio',
                 'chemical_code' =>  'Na',
             ],
             [
-                'name' =>    'CLORURO',
+                'name' =>    'Cloruro',
                 'chemical_code' =>  'CI',
             ],
             [
-                'name' =>    'HIERRO',
+                'name' =>    'Hierro',
                 'chemical_code' =>  'Fe',
             ],
             [
-                'name' =>    'COBRE',
+                'name' =>    'Cobre',
                 'chemical_code' =>  'Cu',
             ],
             [
-                'name' =>    'MANGANESO',
+                'name' =>    'Magnesio',
                 'chemical_code' =>  'Mn',
             ],
             [
-                'name' =>    'ZINC',
+                'name' =>    'Zinc',
                 'chemical_code' =>  'Zn',
             ],
             [
-                'name' =>    'BORO',
+                'name' =>    'Boro',
                 'chemical_code' =>  'B',
             ],
         ];
@@ -119,11 +119,11 @@ class GeneralSeeder extends Seeder
                 'description' => '',
             ],
             [
-                'climate_type' => 'tropical',
+                'climate_type' => 'Tropical',
                 'description' => '',
             ],
             [
-                'climate_type' => 'subtropical',
+                'climate_type' => 'Subtropical',
                 'description' => '',
             ],
         ];
